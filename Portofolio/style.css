@@ -1,0 +1,119 @@
+*{
+    font-family: monospace;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+.bg {
+	background-image: url(bg.jpg);
+   	width: 100%;
+	background-size: cover;
+	color: white;
+	text-align: center;
+    height: 670px;
+    width: 100%;
+}
+.header {
+	/* background-image: url(bg.jpg); */
+   opacity: 0.5;
+   /* height: 40px;
+   width: 100%; */
+   position: relative;
+   top: 0;
+   z-index: 15;
+   text-align: center;
+    
+}
+.header a{
+    float: right;
+    padding: 11px 15px;
+    color: black;
+    display: block;
+    transition: all 0,5s;
+    
+}
+.header a:hover {
+    background-color: gray;
+}
+.content h1{
+	padding-top: 40pt;
+    font-size: 45px;
+    text-align: center;
+	color: black;
+}
+
+.profile {
+    max-width: 1170px;
+	margin-top: 60px;
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	padding: 0 50px ;
+	margin: 0 auto;
+}
+.profile h1{
+    font-size: 50px;
+	color:black;
+	padding-top: 250px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.my-profile{
+    width: auto;
+    justify-content: center;
+	margin: 5px;
+	background: #fff;
+	padding: 20px 10px;
+	float: left;
+	align-items: center;
+}
+.my-profile img{
+    background: #e9e5fa;
+	max-width: 190px;
+	width: 100%;
+	height: 190px;
+	margin:  0 auto;
+	border-radius: 50%;
+	padding: 5px;
+	cursor: pointer;
+	position: relative;
+}
+img {
+	width:100px;
+	height:100px;
+}
+.img-profile{
+    width: 100%;
+	height: 100%;
+}
+.my-profile p{
+    margin-top: 20px;
+	font-size: 14px;
+    line-height: 20px;
+    /* padding-bottom: 100px; */
+}
+#sertificate {
+	margin-bottom: 100px;
+}
+#sertificate h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-size: 50px;
+	color: black;
+}
+#sertificate .sertif {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	margin: 0 20px;
+}
+#sertificate .sertif img {
+	width: 100%;
+	height: auto;
+}
